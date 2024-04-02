@@ -1,0 +1,162 @@
+@font-face {
+    font-family: NameIdea;
+    src: url(public/fonts/Exo2-VariableFont_wght.ttf);
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-content-first {
+    width: 100%;
+    background: rgb(49, 172, 250);
+    background: linear-gradient(210deg, rgba(49, 172, 250, 1) 0%, rgba(172, 255, 255, 1) 31%, rgba(172, 255, 255, 1) 32%, rgba(172, 255, 255, 1) 64%, rgba(32, 113, 195, 1) 100%);
+    ;
+    padding-bottom: 10px;
+}
+.logo{
+    margin-top: 15px;
+    width: 140px;
+    height: 140px;
+    background-image: url(public/images/logo-tdc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    font-family: NameIdea;
+    font-weight: bolder;
+    margin-left: 200px;
+    /* -webkit-text-stroke: 1px #000; */
+    text-shadow: 2px 2px 10px #000;
+}
+
+.name-school{
+    font-family: NameIdea;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 20px;
+    /* -webkit-text-stroke: 1px #000; */
+    text-shadow: 2px 2px 10px #000;
+}
+
+.box-contact{
+    font-family: NameIdea;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.nav{
+    inset: 0;
+    background: #4e9fd6;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #acffff 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.item-nav{
+    line-height: 60px;
+    padding: 0 12px;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: bolder;
+}
+.item-nav-text{
+    color: #fff;
+    font-weight: bolder;
+}
+.list-item-nav{
+    margin: 0;
+    list-style:none;
+    justify-content: space-between;
+}
+.box-login{
+    text-align: end;
+}
+.login{
+    line-height: 42px;
+    padding: 0px 40px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin:10px;
+}
+.item-nav:hover{
+    box-shadow: rgba(17, 17, 26, 0.3) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 30px;
+}
+.item-nav-text:hover{
+    color: yellow;
+    text-decoration: none;
+
+}
+.img-banner{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url(public/images/img-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.img-pre{
+    position: absolute;
+    left: 0;
+    font-size: 50px;
+    padding: 0 30px;
+    line-height: 900px;
+    opacity: 0;
+}
+.img-blur{
+    background: none;
+    width: 100%;
+    height: 900px;
+    margin: 0 95px;
+}
+.img-next{
+    position: absolute;
+    font-size: 50px;
+    right: 0;
+    padding: 0 30px;
+    line-height: 900px;
+    opacity: 0;
+}
+.img-next:hover, .img-pre:hover{
+    box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+}
+.img-pre:hover ~ .img-blur{
+    background: rgba(0, 0, 0, 0.33);
+}
+.img-next:hover ~ .img-blur {
+    background: rgba(0, 0, 0, 0.33);
+}
+.name-about{
+    font-size: 100px;
+    margin: 40px 0;
+    font-weight: bolder;
+    color: #4e9fd9;
+}
+.content-about{
+    font-size: 20px;
+    text-align: center;
+}
+.footer-background{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px 0;
+}
+
+.title-address-footer{
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+.title-contact{
+    font-size: 30px;
+}
