@@ -61,10 +61,12 @@
     vertical-align: middle;
     color: #fff;
     font-weight: bolder;
+    cursor: pointer;
 }
 .item-nav-text{
     color: #fff;
     font-weight: bolder;
+    cursor: pointer;
 }
 .list-item-nav{
     margin: 0;
@@ -84,11 +86,13 @@
 .item-nav:hover{
     box-shadow: rgba(17, 17, 26, 0.3) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 30px;
+    color: yellow;
+    cursor: pointer;
 }
 .item-nav-text:hover{
     color: yellow;
     text-decoration: none;
-
+    cursor: pointer;
 }
 .img-banner{
     position: relative;
@@ -106,9 +110,9 @@
     padding: 0 30px;
     line-height: 900px;
     opacity: 0;
+    color: #acffff;
 }
 .img-blur{
-    background: none;
     width: 100%;
     height: 900px;
     margin: 0 95px;
